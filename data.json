@@ -1,0 +1,201 @@
+{
+  "error": false,
+  "error_text": "",
+  "method": "get_task_by_id",
+  "user":  {
+	"user_id": 554454,
+	"user_name":"Туманов Дмитрий",
+	"user__pic":"avatar.svg",
+	"roles": "super_user", 
+	"groups": "Developers"
+
+},
+  "data": {
+    "id": "4554787",
+    "subject": "Тестирование Redmine Проводов.нет",
+    "folder": "Общие задачи",
+    "image_data": "default.png",
+	 "responsible": "Отдел разаботки",
+	 "descripton": "Lorem Ipsum - это текст-, часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum", 
+	"created": {
+	"user__name": "Туманов Дмитрий", 
+	"user__id":788754,
+	"user__pic":"tumanov.png"
+},
+
+	 "status" :"В работе",
+    "tags": [
+      { "tag_tlt": "важно", "tag__color": "orange" },
+      { "tag_tlt": "не важно", "tag__color": "green" }
+    ],
+    "complete": "80",
+    "created_on": 1677433324000,
+    "date_edited": 1677438502000,
+    "members": [
+      {
+        "member_uid": "234343",
+        "user_name": "Лидия Иванова",
+        "member_picure": "user__id1.png"
+      },
+      {
+        "member_uid": "787877",
+        "user_name": "Петр Петров",
+        "member_picure": "user__id2.png"
+      },
+      {
+        "member_uid": "3454435",
+        "user_name": "Иван Сидоров",
+        "member_picure": "user__id3.png"
+      }
+    ],
+    "attachs": [
+      {
+        "attachs_id": "234343",
+        "attachs_name": "фото сервера",
+        "file_type": "png",
+        "file_url": "server1.png",
+        "added_on": 1677433324000
+      },
+      {
+        "attachs_id": "234343",
+        "attachs_name": "фото сервера",
+        "file_type": "png",
+        "file_url": "server3.png",
+        "added_on": 1677433324000
+      },
+      {
+        "attachs_id": "234343",
+        "attachs_name": "фото сервера",
+        "file_type": "png",
+        "file_url": "server2.png",
+        "added_on": 1677433324000
+      }
+    ],
+	 "actions": [
+      {
+        "action_id": "234343",
+        "user": {
+			"user_id": "4787887",
+			"user_name": "Иван Иванов",
+			"user_pic": "user__id1.png"
+		  }, 
+
+		  "action_body": "Здесь сообщение комметнария testtesttestte sttesttest testtesttesttesttes ttesttesttest testtesttestt esttesttes ttesttesttestte sttesttestt esttestte sttesttestt esttestte sttesttestt esttesttest testtes ttesttesttes ttes ttesttesttesttes ttesttesttesttesttesttes ttesttestt esttesttesttes tte sttestte stte sttesttesttestt esttestt esttesttest",
+        "file_type": "jpeg", 
+        "added_on": 1677433324000
+      },
+		{
+			"action_id": "5345535",
+			"user": {
+			 "user_id": "4787887",
+			 "user_name": "Ивана Ивавнцева",
+			 "user_pic": "user__id3.png"
+			}, 
+ 
+			"action_body": "Здесь сообщение комметнария",
+			"file_type": "jpeg",
+			"file_url": "user__id1.png",
+			"added_on": 1677433324000
+		 }, 
+		 {
+			"action_id": "34535",
+			"user": {
+			 "user_id": "4787887",
+			 "user_name": "Jonn Yo",
+			 "user_pic": "user__id4.png"
+			}, 
+ 
+			"action_body": "Здесь сообщение комметнария",
+			"file_type": "jpeg",
+			"file_url": "user__id1.png",
+			"added_on": 1677433324000
+		 }
+    ], 
+	 "relateds": [ {
+		"related__id":"444444",
+		"task_id": "8777878", 
+		"connection_add":1677433324000, 
+		"subject": "Настройка комутатора на ул.Гагарина"
+	 }, {
+		"related__id":"343",
+		"task_id": "34333", 
+		"connection_add":1677433324000, 
+		"subject": "Какой-то заголовок"
+	 },
+	 {
+		"related__id":"3112",
+		"task_id": "23234", 
+		"connection_add":1677433324000, 
+		"subject": "Какой-то заголовок о чем-то"
+	 }
+	 ],
+	 "checkList": [
+      {
+        "checkList__uid": "234343",
+		  "checkbox__name": "Заголовок подзадачи",
+        "checkbox": [{
+			"id": "1",
+			"label": "Какая-то заметка45",
+			"value":"",
+			"isCheked":false 
+		  }, 
+		  {
+			"id": "3232",
+			"label": "Какая-то заметка22",
+			"value":"",
+			"isCheked":false 
+		  },{
+			"id": "23233223",
+			"label": "Какая-то заметка21",
+			"value":"",
+			"isCheked":false 
+		  },{
+			"id": "3223232",
+			"label": "Какая-то заметка23",
+			"value":"",
+			"isCheked":true 
+		  },{
+			"id": "23222",
+			"label": "Какая-то заметка35",
+			"value":"",
+			"isCheked":false 
+		  }
+		]
+      }, 
+		{
+			"checkList__uid": "2354345354",
+			"checkbox__name": "Заголовок подзадачи22",
+			"checkbox": [{
+			 "id": "322",
+			 "label": "Заголовок чекбокса 1",
+			 "value":"",
+			 "isCheked":false 
+			}, 
+			{
+			 "id": "234234",
+			 "label": "Какая-то заметка1",
+			 "value":"",
+			 "isCheked":false 
+			},{
+			 "id": "44353",
+			 "label": "Какая-то заметка2",
+			 "value":"",
+			 "isCheked":false 
+			},{
+			 "id": "4353",
+			 "label": "Какая-то заметка3",
+			 "value":"",
+			 "isCheked":true 
+			},{
+			 "id": "23222",
+			 "label": "Какая-то заметка4",
+			 "value":"",
+			 "isCheked":false 
+			}
+		 ]
+		 }
+		
+    ]
+	 
+  }
+}
